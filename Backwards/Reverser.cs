@@ -130,7 +130,7 @@ namespace BackwardsApp.Backwards
                 forwardsWavFileStream.Read(forwardsWavFileStreamByteArray, 0, (int)forwardsWavFileStream.Length);
             }
             
-            return forwardsWavFileStreamByteArray;
+            return forwardsWavFileStreamByteArray;//
         }
     }
 }
